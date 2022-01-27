@@ -32,7 +32,7 @@ class Stack {
       arr.push(current.val);
       current = current.next;
     }
-    console.log(arr);
+    console.log('2. 使用 Linked List 實作 Stack', arr);
     return <>{arr}</>
   }
 
@@ -52,6 +52,7 @@ const LinkedList = () => {
   return (
     <>
       <div>2. 使用 Linked List 實作 Stack</div>
+      <div>finish push()</div>
       {/* <div>{`myStack.push(1) ${myStack.push(1)}`}</div>
       <div>{`myStack.push(2) ${myStack.push(2)}`}</div>
       <div>{`myStack.push(3) ${myStack.push(3)}`}</div>

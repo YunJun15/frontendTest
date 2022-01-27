@@ -24,13 +24,12 @@ const DataTransformer = () => {
     return { user, orders };
   });
 
-  console.log('result', result)
+  console.log('3. 實作 Data Transformer result', result)
 
 
   return (
     <>
       <div>3. 實作 Data Transformer</div>
-      {/* <div>{result}</div> */}
     </>
   )
 }
